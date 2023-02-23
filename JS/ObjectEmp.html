@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var employee=new Object()
+        employee.name="Aniket"
+        employee.age=22
+        employee.address="Ghy"
+        employee.salary=150000
+        
+
+        //calculating avg marks
+        employee.salarycalc=function()
+        {
+            var newsal = employee.salary + (employee.salary)/10
+            document.write(newsal)
+        }
+
+        employee.display=function()
+        {
+            document.write(employee.name+"<br>")
+            document.write(employee.age+"<br>")
+            document.write(employee.address+"<br>")
+            employee.salarycalc()
+        }
+
+        employee.display()
+
+        
+        function getsum(t1,t2)
+        {
+            document.write(t1+t2)
+        }
+    </script>
+    num1 = <input type="number" name="t1"><br>
+    num2 = <input type="number" name="t2"><br>
+
+    <button type=" button" onclick="getsum(t1,t2)">Click</button>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1" name="pp1">This is my introduction</p>
+    <p id="p2">I am an instructor</p>
+    <button type="button" onclick="loop()">Click to see the loop</button>
+    <script type="text/javascript">
+
+        function loop()
+        {
+            var x1="Hello";
+            var x2="";
+            for(var i=0;i<x1.length;i++)
+            {
+                x2+=x1.charAt(i)+x1.charAt(i);
+            }
+            document.write(x2);
+            document.getElementById("p2").innerHTML=x2;
+        }
+        // document.getElementById("p2").innerHTML = "This is the conclusion";
+        // document.getElementsByName("pp1").innerHTML = "Arigato";
+
+        // var x=20;
+        // var y =40;
+        // if(x>y)
+        // {
+        //     alert("x is greater");
+        //     alert("this is it");
+        // }
+        // else
+        //     alert("y is greater");
+
+        // //taking input
+        // ans=prompt("please enter some number")
+        // if(ans=="06")
+        //     alert("you entered 6")
+        // else
+        //     alert("You did not enter 6")
+        
+        // //confirmation
+        // c=confirm("Do you want to delete a file?")
+        // if(c)
+        //     alert("you have deleted the file")
+        // else
+        //     alert("you have opted for not deleting the file")
+    </script>    
+</body>
+</html>

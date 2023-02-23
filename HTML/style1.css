@@ -1,0 +1,25 @@
+.parent{
+    max-width: 1500px;
+    background: linear-gradient(to bottom right, cyan, yellow);
+    display: flex;
+    padding: 20px;
+}
+
+.Main{
+    flex: 3;
+    order: 2;
+    padding: auto;
+    padding-right: 10px;
+}
+
+.one{
+    flex: 1;
+    order: 1;
+    padding: auto;
+}
+
+.two{
+    flex: 1;
+    order: 3;
+    padding: auto;
+}

@@ -1,0 +1,23 @@
+.mahesh{
+    color: red;
+    background-color: black;
+    text-align: right;
+}
+
+.suchetan{
+    color: yellow;
+    background-color: rgb(241, 11, 11);
+    text-align: left;
+    font-size: 20px;
+}
+h2{
+    color: blue;
+}
+
+table{
+    background: linear-gradient(to right, orange,white);
+    border-color: blue;
+    border-width: 3px;
+    width: 100px;
+    height: 60px;
+}

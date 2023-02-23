@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <div class="con">
+    <table class="onn" border="1" >
+        <tr>
+            <td><label>First name</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Last name</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Date of Birth</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label>Address</label></td>
+            <td><textarea rows="3" cols="20"></textarea></td>
+        </tr>
+        <tr>
+            <td><label>Skills</label></td>
+            <td>Graduate<input type="checkbox" name="skills"></td>
+            <td>Masters<input type="checkbox" name="skills"></td>
+            <td>PhD<input type="checkbox" name="skills"></td>
+        </tr>
+        <tr>
+            <td><label>Marital Status</label></td>
+            <td>Married<input type="radio" name="status"></td>
+            <td>Complicated<input type="radio" name="status"></td>
+            <td>Single<input type="radio" name="status"></td>
+        </tr>
+        <tr>
+            <td><label>Work Location</label></td>
+            <td>
+                <select>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                    <option>Kolkata</option>
+               </select></td>
+        </tr>
+        <tr>
+            <td><label>Salary Range</label></td>
+            <td><input type="range" min="25000" max="100000"></td>
+        </tr>
+        <tr>
+            <td><label>Rating process</label></td>
+            <td><input type="number" min="1" max="10"></td>
+        </tr>
+        <tr>
+            <td><label>Email</label></td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td><label>Bay color</label></td>
+            <td><input type="color"></td>
+        </tr>
+        <tr>
+            <td><label>Upload Resume</label></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="Submit"></td>
+            <td><input type="reset" name="Reset"></td>
+        </tr>
+    </table>
+    </div>
+    </form>
+    <style>
+        .onn{
+           background: linear-gradient( cyan,white); 
+        }
+    </style>
+</body>
+</html>

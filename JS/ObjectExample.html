@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var student=new Object()
+        student.name="Aniket"
+        student.age=22
+        student.address="Ghy"
+        student.hindi=90
+        student.maths=90
+        student.english=85
+
+        //calculating avg marks
+        student.avgMarks=function()
+        {
+            var avg = (student.english+student.hindi+student.maths)/3
+            document.write(avg)
+        }
+
+        student.display=function()
+        {
+            document.write(student.name+"<br>")
+            document.write(student.age+"<br>")
+            document.write(student.address+"<br>")
+            student.avgMarks()
+        }
+
+        student.display()
+    </script>
+</body>
+</html>

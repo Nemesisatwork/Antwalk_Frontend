@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation matrix</title>
+</head>
+<body>
+    <h1><center>Multiplication matrix</center></h1>
+    Welcome to this multiplicative matrix<br>
+    
+    <table border="1">
+        <script type="text/javascript">
+            var r = prompt("Enter the number of rows")
+                var c = prompt("Enter the number of columns")
+                r = Number(r)
+                c= Number(c)
+
+            
+            function calc(a,b)
+            {
+                
+                for(var i=1;i<=a;i++){
+                    document.write("<tr>")
+                    for(var j=1;j<=b;j++)
+                    {
+                        document.write("<td>"+i*j+"</td>")
+                        
+                    }
+                    document.write("</tr>")
+                    
+                }
+            }
+            calc(r,c);
+        </script>
+    </table>
+    
+</body>
+</html>
